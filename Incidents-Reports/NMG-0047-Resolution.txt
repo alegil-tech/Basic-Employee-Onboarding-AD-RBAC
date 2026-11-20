@@ -1,0 +1,8 @@
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+Root cause:Two problems were found. (1) Jane's account was in the Operations OU instead of the HR OU, so her computer applied Operations policies and drives. (2) Jane was a member of Operations-Users and was not a member of HR-Users, so she had no access to HR resources. Both problems came from an incorrect account setup. 
+Fix applied:I moved Jane's account from the Operations OU to the HR OU. I removed her from Operations-Users and added her to HR-Users. I left Domain Users unchanged because every user needs it. I did this because the ticket says Jane is an HR Payroll Specialist. 
+Verification:Jane now appears in the HR OU next to her HR teammates. Her Member Of tab shows Domain Users and HR-Users. The HR-Users group lists jcooper as a member. 
+Date resolved: 11/17/26
+Resolved by: Alejandro Gil
