@@ -1,0 +1,13 @@
+Day 3 - People + Permissions
+
+Total users created: 15
+
+Finance users: dchen, kmills, rhayes, lpark
+HR users: storres, jwhitfield, mgrant
+IT users: mjohnson, ppatel, tbrooks, acoleman
+Operations users: bfoster, jcooper, crivera, nross
+
+All users were assigned to the correct security groups:
+Finance-Users, HR-Users, IT-Users, Operations-Users.
+
+Date completed: 11/15/2026
